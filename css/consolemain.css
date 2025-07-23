@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-con {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    color: #fff;
+    padding: 20px 60px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.75rem;
+    line-height: 40px;
+}
+
+.header p {
+    color: #888;
+}
+
+.console-gaming-con {
+    background-color: #111;
+}
+
+.console-gaming h1 {
+    color: #44dc2f;
+    font-weight: 100;
+}
+
+.container {
+    padding: 30px 10px;
+}
+
+.text-con {
+    color: #fff;
+    text-align: center;
+}
+
+.text-con h1 {
+    font-size: 1.5rem;
+}
+
+.text-con p {
+    color: #888;
+}
+
+.link,
+.pointer {
+    color: #44dc2f;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.kitsune-con {
+    background-image: url(../images/consoleimages/razer_kitsune.jpg);
+    background-repeat: no-repeat;
+    background-size: 240% 100%;
+    background-position: center;
+    height: 359px;
+    max-width: 100%;
+
+}
+
+
+#background-video {
+    max-width: 100%;
+}
+
+.items3ea-con {
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+
+.items-img {
+    background-color: #000;
+}
+
+.items-description {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.items-description p+p {
+    color: #888;
+    font-size: 16px;
+}
+
+.ring-winning-con {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.gamepads_engineered-con {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.gamepads_engineered {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/consoleimages/small-gamepad-engineered.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.gamepads_engineered-text {
+    color: #fff;
+    background-color: #000;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.gamepads_engineered-text h3 {
+    color: #44dc2f;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.gamepads_engineered-text p {
+    font-size: 20px;
+    color: #888;
+}
+
+
+.ring-winning {
+
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/consoleimages/ringwinning-con-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 21%;
+}
+
+
+.ring-winning-text {
+    color: #fff;
+    background-color: #000;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.ring-winning-text p {
+    font-size: 20px;
+    color: #888;
+}
+
+
+
+.hedgehog-con {
+    background-image: url(../images/consoleimages/small-hedgehog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    height: 359px;
+    max-width: 100%;
+    border-bottom: 1px solid #44dc2f;
+}
+
+.gamesetmatch-con {
+    background-image: url(../images/consoleimages/small_game-set-match.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    height: 359px;
+    max-width: 100%;
+    border-bottom: 1px solid #44dc2f;
+}
+
+.wolverinev2_chroma-con {
+    background-image: url(../images/consoleimages/small_wolverinev2chroma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    height: 359px;
+    max-width: 100%;
+    border-bottom: 1px solid #44dc2f;
+}
+
+
+.c3-con {
+    background-image: url(../images/consoleimages/small_c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    height: 359px;
+    max-width: 100%;
+    border-bottom: 1px solid #44dc2f;
+}
+
+
+.game_set_match-con {
+    background-image: url(../images/consoleimages/small-hedgehog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    height: 359px;
+    max-width: 100%;
+    border-bottom: 1px solid #44dc2f;
+}
+
+
+
+.items2ea-con {
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items4ea-con {
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 460px) {
+
+    .kitsune-con {
+        background-image: url(../images/consoleimages/razer_kitsune.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .hedgehog-con {
+        background-image: url(../images/consoleimages/sonic-hedgehog.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .gamesetmatch-con {
+        background-image: url(../images/consoleimages/gameset.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .wolverinev2_chroma-con {
+        background-image: url(../images/consoleimages/wolverinev2chroma.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .c3-con {
+        background-image: url(../images/consoleimages/3c.jpg);
+        background-repeat: no-repeat;
+        background-position: 1;
+        height: 300px;
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .ring-winning-con {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ring-winning {
+        width: 60%;
+    }
+
+
+    .ring-winning-text {
+        color: #fff;
+        background-color: #000;
+        font-size: 24px;
+        padding: 5em 10px;
+        width: 40%;
+    }
+
+    .ring-winning-text p {
+        font-size: 20px;
+        color: #888;
+    }
+
+    .gamepads_engineered-con {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        background-image: url(../images/consoleimages/gamepads-engineered.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .gamepads_engineered {
+        background-image: none;
+    }
+
+    .gamepads_engineered {
+        width: 60%;
+    }
+
+    .gamepads_engineered-text {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 24px;
+        padding: 5em 50px;
+        margin: 0 -20px;
+        width: 40%
+    }
+
+    .gamepads_engineered-text h3 {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+    .hedgehog-con,
+    .kitsune-con,
+    .gamesetmatch-con,
+    .wolverinev2_chroma-con,
+    .c3-con {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .hedgehog-con,
+    .kitsune-con,
+    .gamesetmatch-con,
+    .wolverinev2_chroma-con,
+    .c3-con {
+        height: 600px;
+    }
+
+
+}

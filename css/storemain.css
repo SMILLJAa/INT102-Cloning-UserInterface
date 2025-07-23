@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Titillium+Web:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#main-store {
+  box-sizing: border-box;
+  margin-left: 20px;
+  position: relative;
+}
+
+.store-main-menu {
+  display: flex;
+  overflow: scroll;
+  margin: 10px 0;
+}
+
+.store-main-menu li {
+  list-style-type: none;
+  margin: 0 25px 0 45px;
+  text-align: center;
+  width: 10em;
+}
+
+.store-main-menu li img {
+  height: 70px;
+  width: auto;
+}
+
+.store-menu-nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover .store-menu-nav-link {
+  opacity: 1;
+  visibility: visible;
+  color: #44dc2f;
+}
+
+
+.pair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px 5px;
+}
+
+li.find-near-store a {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 0px;
+}
+
+li.find-near-store a:hover {
+  opacity: 1;
+  visibility: visible;
+  text-decoration: underline;
+}
+
+
+span.cur {
+  color: #44dc2f;
+}
+
+span.cur:hover {
+  text-decoration: none;
+}
+
+.store-heading-text {
+  font: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: #fff;
+  padding: 20px 17px;
+  line-height: 30px;
+  font-weight: bolder;
+}
+
+.heading {
+  color: #888;
+  font-size: 16px;
+}
+
+
+.green {
+  color: #44dc2f;
+  font-size: 32px;
+}
+
+
+.bestsellers-heading {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 20px 5px;
+}
+
+.bestsellers-heading h2 {
+  font-weight: bolder;
+}
+
+.bestsellers-heading span {
+  font-size: 18px;
+  font-weight: light;
+  color: #888;
+}
+
+#bestseller-con {
+  width: 1600px;
+  max-width: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+#bestseller-con::-webkit-scrollbar {
+  display: none;
+}
+
+.itembestseller-con {
+  color: #fff;
+  margin: 0 1.3em 0 0;
+  width: max-content;
+}
+
+.itembestseller-info {
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #222;
+}
+
+.itembestseller-con img {
+  width: 298px;
+  height: 298px;
+  background-color: #111;
+  ;
+}
+
+.itembestseller-con h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -0.1em;
+}
+
+.itembestseller-con p {
+  font-size: 15px;
+  color: #888;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+.freshoff-heading {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 20px 5px;
+}
+
+.freshoff-heading h2 {
+  font-weight: bolder;
+}
+
+.freshoff-heading span {
+  font-size: 18px;
+  font-weight: light;
+  color: #888;
+}
+
+#freshoff-con {
+  width: 1600px;
+  max-width: 100%;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#freshoff-con::-webkit-scrollbar {
+  display: none;
+}
+
+.itemfreshoff-con {
+  color: #fff;
+  margin: 0 1.3em 2em 0;
+  width: max-content;
+}
+
+.itemfreshoff-info {
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #222;
+  height: 260px;
+}
+
+.itemfreshoff-con img {
+  width: 298px;
+  height: 298px;
+  background-color: #111;
+  ;
+}
+
+.itemfreshoff-con h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -0.1em;
+}
+
+.itemfreshoff-con p {
+  font-size: 15px;
+  color: #888;
+}
+
+.itemfreshoff-con p+p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+
+
+.exclusives-heading {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 20px 15px;
+}
+
+.exclusives-heading h2 {
+  font-weight: bolder;
+}
+
+.exclusives-heading span {
+  font-size: 18px;
+  font-weight: light;
+  color: #888;
+}
+
+#exclusives-con {
+  width: 1600px;
+  max-width: 100%;
+  height: 500x;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#exclusives-con::-webkit-scrollbar {
+  display: none;
+}
+
+.itemexclusives-con {
+  color: #fff;
+  margin: 0 1.3em 2em 0;
+  width: max-content;
+}
+
+.itemexclusives-info {
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #222;
+  height: 260px;
+}
+
+.itemexclusives-con img {
+  width: 298px;
+  height: 298px;
+  background-color: #111;
+  ;
+}
+
+.itemexclusives-con h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -0.1em;
+}
+
+.itemexclusives-con p {
+  font-size: 15px;
+  color: #888;
+}
+
+.itemexclusives-con p+p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+.mb-list-con {
+  display: flex;
+  overflow: scroll;
+  margin: 20px 5px;
+}
+
+.mb-list {
+  background-color: #222;
+  margin: 0.6em;
+  height: 290px;
+}
+
+.mb-list p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.5em 0 0 0.8em;
+}
+
+.mb-list img {
+  width: 250px;
+  height: 240px;
+}
+
+
+.Razer-lastchance-heading {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 20px 15px;
+}
+
+.Razer-lastchance-heading h2 {
+  font-weight: bolder;
+}
+
+.Razer-lastchance-heading span {
+  font-size: 18px;
+  font-weight: light;
+  color: #888;
+}
+
+#Razer-lastchance-con {
+  width: 1600px;
+  max-width: 100%;
+  height: 500x;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+#Razer-lastchance-con::-webkit-scrollbar {
+  display: none;
+}
+
+.itemRazer-lastchance-con {
+  color: #fff;
+  margin: 0 1.3em 0 0;
+  width: max-content;
+}
+
+.itemRazer-lastchance-info {
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #222;
+}
+
+.itemRazer-lastchance-con img {
+  width: 298px;
+  height: 298px;
+  background-color: #111;
+  ;
+}
+
+.itemRazer-lastchance-con h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -0.1em;
+}
+
+.itemRazer-lastchance-con p {
+  font-size: 15px;
+  color: #888;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.buy {
+  background-color: #44dc2f;
+  color: #000;
+  padding: 0 0.5em;
+  border-radius: 15%;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: #6fe860;
+}
+
+
+.laptops-rtx30series-heading {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 20px 15px;
+}
+
+.laptops-rtx30series-heading h2 {
+  font-weight: bolder;
+}
+
+.laptops-rtx30series-heading span {
+  font-size: 18px;
+  font-weight: light;
+  color: #888;
+}
+
+#laptops-rtx30series-con {
+  width: 1600px;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 3em;
+}
+
+#laptops-rtx30series-con::-webkit-scrollbar {
+  display: none;
+}
+
+.itemlaptops-rtx30series-con {
+  color: #fff;
+  margin: 0 1.3em 0 0;
+  width: max-content;
+}
+
+.itemlaptops-rtx30series-info {
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #222;
+}
+
+.itemlaptops-rtx30series-con img {
+  width: 298px;
+  height: 298px;
+  background-color: #111;
+  ;
+}
+
+.itemlaptops-rtx30series-con h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -0.1em;
+}
+
+.itemlaptops-rtx30series-con p {
+  font-size: 15px;
+  color: #888;
+}
+
+.whybuy-con {
+  color: #fff;
+  display: block;
+  margin: 2.5em 0;
+}
+
+.whybuy-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.whybuy-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.whybuy-info {
+
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 18px;
+  width: 320px;
+}
+
+
+.whybuy-heading h2 {
+  color: #44dc2f
+}
+
+.whybuy-info img {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (min-width: 1200px) {
+  #main-store {
+    box-sizing: border-box;
+    margin-left: 10rem;
+    position: relative;
+  }
+
+}
+
+
+@media screen and (min-width: 769px) {
+
+  .pair {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

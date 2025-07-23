@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Titillium+Web:wght@300&display=swap');
+
+
+body {
+    background-color: #222;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+    border-bottom: 1px solid #44d62c;
+}
+
+nav a {
+    text-decoration: none;
+    color: #888;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+    gap: 3.5em;
+}
+
+.list li a:hover {
+    color: white;
+}
+
+.logo {
+    margin: 0 3em;
+}
+
+
+#toggler,
+label {
+    display: none;
+    padding: 15px;
+}
+
+label i {
+    color: #666;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 820px) {
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    label {
+        display: inline-flex;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .list li {
+        border-bottom: 1px solid #333;
+    }
+
+    .fa-search,
+    .fa-shopping-cart {
+        opacity: 0;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1060px) {
+    .list {
+        gap: 25px;
+    }
+
+}

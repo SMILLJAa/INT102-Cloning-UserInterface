@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    cursor: pointer;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
+.con-ring {
+    background: url(../images/ring_winning.webp) top center/250% 100% no-repeat;
+}
+
+.con-hellokitty {
+    background: url(../images/hello-kitty-50th-anniversary-homepage-desktop2x.webp) top/250% 100% no-repeat;
+
+
+}
+
+.con-razerlambo {
+    background: url(../images/razer-blade16-lamborghini-homepage-desktop2x.webp) top / 400% 100% no-repeat;
+}
+
+.con-fujin {
+    background: url(../images/fujin.webp) top center/cover no-repeat;
+}
+
+.con-rb16-18 {
+    background: url(../images/mercury-blade16-blade18-b-950x580-desktop.webp) top center/cover no-repeat;
+}
+
+.con-dolce {
+    background-image: url(../images/dolce&gabbana-launch-b-950x580-desktop.webp);
+    background-size: 100% 70%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+}
+
+.con-immersive {
+    background-image: url(../images/razer_immersive.webp);
+    background-size: 200% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.con-sneki {
+    background-image: url(../images/sneki-snek-b-950x580-desktop.webp);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+.con-giftcard {
+    background-image: url(../images/giftcard.webp);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.item-main {
+    text-align: center;
+    color: #fff;
+    line-height: 2em;
+    margin: 3em auto;
+}
+
+.item-main h2 {
+    font-size: 32px;
+    max-width: 100%;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0 auto 0.5em;
+
+}
+
+.item-main p {
+    font-size: 20px;
+    line-height: 1.2em;
+    max-width: 90%;
+    margin: auto;
+}
+
+.item-main a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-main a:hover {
+    text-decoration: underline;
+}
+
+.item-main span {
+    color: #44dc2f;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .con-razerlambo,
+    .con-hellokitty,
+    .con-ring {
+        background-size: cover;
+        background-position: top center;
+    }
+
+
+    .fujin-rb {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .con-fujin,
+    .con-rb16-18 {
+        width: 50%;
+        max-height: 100%;
+        margin: 5px;
+    }
+
+    .dolce-immersive {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .con-dolce,
+    .con-immersive {
+        width: 50%;
+        max-height: 100%;
+        margin: 5px;
+    }
+
+    .sneki-giftcard {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .con-sneki,
+    .con-giftcard {
+        width: 50%;
+        max-height: 100%;
+        margin: 5px;
+        background: cover;
+    }
+
+
+}

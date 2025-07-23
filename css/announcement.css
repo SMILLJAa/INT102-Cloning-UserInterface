@@ -1,0 +1,44 @@
+.announcement {
+    background-color: #555;
+    border-top: 1px solid #44dc2f;
+    color: white;
+    text-align: center;
+    padding: 0.05rem 0;
+    height: 45px;
+}
+
+.announcement div {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.announcement p {
+    font-size: 15px;
+}
+
+.announcement p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.announcement p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) {
+    .announcement {
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .announcement {
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 825px) {
+    .announcement {
+        height: 50px;
+    }
+}

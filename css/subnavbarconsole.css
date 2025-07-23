@@ -1,0 +1,54 @@
+.sub-navbar {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.sub-navbar li {
+    list-style-type: none;
+    margin: 5px 20px;
+}
+
+
+.sub-navbar li a {
+    text-decoration: none;
+}
+
+.item {
+    width: 32px;
+    height: 32px;
+}
+
+.label-text {
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.item:hover .label-text {
+    color: #44dc2f;
+}
+
+.new-text {
+    color: #F5B21D;
+    font-size: 13px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 440px) {
+
+    .sub-navbar li {
+        list-style-type: none;
+        margin: 0 10px;
+    }
+
+    .item img {
+        width: 28px;
+        height: 28px;
+    }
+
+}

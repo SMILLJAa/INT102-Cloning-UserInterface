@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Titillium+Web:wght@300&family=Vina+Sans&display=swap');
+
+footer {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #111;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+    margin: 0.3em 1.2em 0.5em 2em;
+}
+
+.footer-top ul li span {
+    font-size: 14px;
+}
+
+.footer-mid {
+    border-bottom: 1px solid #333;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0.7em 0.7em;
+}
+
+.footer-mid p {
+    font-size: 14px
+}
+
+.footer-mid div {
+    margin: auto;
+}
+
+.footer-mid div {
+    max-width: 80%;
+    margin: auto;
+}
+
+.footer-mid div a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-mid div a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.footer-bottom span a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-bottom span a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    color: #44df2c;
+    font-size: 13px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-bottom ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-top-info {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .footer-top ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+        gap: 10px;
+        height: 360px;
+    }
+
+    .footer-top ul li {
+        padding: 5px 15px;
+    }
+
+    .footer-top ul li span {
+        font-size: 14px;
+    }
+
+    .footer-top-info {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    .footer-top-info a {
+        text-decoration: none;
+        color: #888;
+        margin: 5px 0;
+    }
+
+    .footer-top-info a:hover {
+        color: #fff;
+    }
+
+    .footer-mid {
+        border-bottom: 1px solid #333;
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+        margin: 0 0.7em;
+    }
+
+    .footer-mid p {
+        font-size: 14px
+    }
+
+    .footer-mid div {
+        margin: auto;
+    }
+
+    .footer-mid div {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .footer-mid div a {
+        text-decoration: none;
+        color: #999;
+        font-size: 14px;
+    }
+
+    .footer-mid div a:hover {
+        color: #fff;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 30px;
+        margin: auto;
+    }
+
+    .footer-bottom span a {
+        color: #999;
+        text-decoration: none;
+    }
+
+    .footer-bottom p {
+        color: #44df2c;
+        font-size: 13px;
+    }
+
+    .footer-bottom ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .footer-bottom ul li a img {
+        width: 24px;
+        height: 24px;
+    }
+}
